@@ -83,6 +83,7 @@ module.exports = {
         'jsx-a11y/click-events-have-key-events': vars.OFF,
         'jsx-a11y/label-has-associated-control': vars.OFF,
         'no-mixed-operators': vars.OFF,
-        'object-curly-newline': vars.OFF
+        'object-curly-newline': vars.OFF,
+        'jsx-a11y/alt-text': vars.OFF
     }
 };
