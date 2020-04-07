@@ -1,0 +1,31 @@
+{
+  "name": "eslint-config-core",
+  "version": "1.0.0",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "constants/globals.js",
+    "constants/vars.js"
+  ],
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EvgenyKalyuk/eslint-config"
+  },
+  "license": "MIT",
+  "peerDependencies": {
+    "eslint": "^6.7.2"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "dependencies": {
+    "eslint-config-airbnb": "^18.1.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.19.0",
+    "eslint-plugin-react-hooks": "^3.0.0"
+  }
+}
