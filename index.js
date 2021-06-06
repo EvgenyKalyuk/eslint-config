@@ -84,6 +84,8 @@ module.exports = {
         'jsx-a11y/label-has-associated-control': vars.OFF,
         'no-mixed-operators': vars.OFF,
         'object-curly-newline': vars.OFF,
-        'jsx-a11y/alt-text': vars.OFF
+        'jsx-a11y/alt-text': vars.OFF,
+        'no-shadow': vars.OFF,
+        '@typescript-eslint/no-shadow': [vars.OFF]
     }
 };
